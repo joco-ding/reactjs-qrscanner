@@ -30,12 +30,12 @@ kolom komentar pada video nya.
 ### mui.com
 https://mui.com/
 
-#### Cara Pasang
+#### Cara Install Modul mui.com
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material
 
 ### qr-scanner
 https://www.npmjs.com/package/qr-scanner
 
-#### Cara Pasang
+#### Cara Pasang Modul qr-scanner
 npm install --save qr-scanner
