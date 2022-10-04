@@ -24,4 +24,18 @@ Semua file yang dibutuhkan untuk di-unggah ke server ada di folder build
 
 Video tutorial-nya bisa dilihat di [youtube](https://youtu.be/CEJmSeHXc6I). Jika ada yang ingin ditanyakan silakan tinggalkan di 
 kolom komentar pada video nya.
-# reactjs-qrscanner
+
+## Module
+
+### mui.com
+https://mui.com/
+
+#### Cara Pasang
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+
+### qr-scanner
+https://www.npmjs.com/package/qr-scanner
+
+#### Cara Pasang
+npm install --save qr-scanner
