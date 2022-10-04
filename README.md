@@ -28,7 +28,7 @@ kolom komentar pada video nya.
 ## Module
 
 ### mui.com
-https://mui.com/
+https://mui.com/material-ui/getting-started/installation/
 
 #### Cara Install Modul mui.com
 npm install @mui/material @emotion/react @emotion/styled --save
