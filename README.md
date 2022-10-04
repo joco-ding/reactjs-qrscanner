@@ -31,11 +31,11 @@ kolom komentar pada video nya.
 https://mui.com/material-ui/getting-started/installation/
 
 #### Cara Install Modul mui.com
-npm install @mui/material @emotion/react @emotion/styled --save
-npm install @mui/icons-material --save
+    npm install @mui/material @emotion/react @emotion/styled --save
+    npm install @mui/icons-material --save
 
 ### qr-scanner
 https://www.npmjs.com/package/qr-scanner
 
 #### Cara Pasang Modul qr-scanner
-npm install qr-scanner --save
+    npm install qr-scanner --save
