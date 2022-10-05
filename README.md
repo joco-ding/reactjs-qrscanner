@@ -20,6 +20,10 @@ Semua file yang dibutuhkan untuk di-unggah ke server ada di folder build
 
 Video tutorial-nya bisa dilihat di [youtube](https://youtu.be/ZuGBNgF1DSY). Jika ada yang ingin ditanyakan silakan tinggalkan di kolom komentar pada video nya.
 
+## Demo URL
+
+https://demo-app-3.jocodev.id/
+
 ## Module
 
 ### mui.com
