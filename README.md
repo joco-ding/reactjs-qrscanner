@@ -4,9 +4,7 @@ Aplikasi untuk Scan Kode QR
 
 ## Cara Install
 
-    git clone https://github.com/joco-ding/reactjs-qrscanner
-    cd reactjs-qrscanner
-    npm install
+    git clone https://github.com/joco-ding/reactjs-qrscanner && cd reactjs-qrscanner &&  npm install
 
 ## Cara Menjalankan Mode Development
 
