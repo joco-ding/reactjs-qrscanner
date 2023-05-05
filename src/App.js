@@ -3,11 +3,11 @@ import { AppBar, Avatar, Box, CssBaseline, Fab, Toolbar, Typography } from "@mui
 import QrScanner from "qr-scanner";
 import React, { useState } from "react";
 
-let stopScan = false
-let hasilScan = ''
+let stopScan = false;
+let hasilScan = "";
 
 function App() {
-  const [btnScan, setBtnScan] = useState(true)
+  const [btnScan, setBtnScan] = useState(true);
 
   const scanNow = async (isScan) => {
     setBtnScan(isScan)
@@ -44,35 +44,45 @@ function App() {
       <CssBaseline />
       <AppBar>
         <Toolbar>
-          <Avatar sx={{ mr: 1, bgcolor: 'secondary.main' }}>
+          <Avatar sx={{ mr: 1, bgcolor: "secondary.main" }}>
             <Person4 />
           </Avatar>
-          <Typography variant="h6">
-            Halo
-          </Typography>
+          <Typography variant="h6">Halo</Typography>
         </Toolbar>
       </AppBar>
-      <Box sx={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center'
-      }}>
-        {btnScan === false && <video id="scanView" style={{
-          width: '100%',
-          maxWidth: '400px',
-          height: '100%',
-          maxHeight: '400px',
-          borderStyle: 'dotted',
-        }}>
-        </video>}
-        {btnScan &&
+      <Box
+        sx={{
+          height: "100vh",
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "flex-start",
+          justifyContent: "flex-start",
+          paddingTop: "64px",
+        }}
+      >
+        {btnScan === false && (
+          <video
+            id="scanView"
+            style={{
+              width: "100%",
+              height: "100%",
+              borderStyle: "dotted",
+            }}
+          ></video>
+        )}
+        {btnScan && (
           <Typography variant="h6">
-            Hasil Scan:<br />{hasilScan}
-          </Typography>}
+            Hasil Scan:
+            <br />
+            {hasilScan}
+          </Typography>
+        )}
       </Box>
-      <Fab color={btnScan ? "primary" : "secondary"} onClick={() => scanNow(!btnScan)} sx={{ position: 'absolute', bottom: 16, right: 16 }}>
+      <Fab
+        color={btnScan ? "primary" : "secondary"}
+        onClick={() => scanNow(!btnScan)}
+        sx={{ position: "absolute", bottom: 16, right: 16 }}
+      >
         {btnScan && <QrCodeScanner />}
         {btnScan === false && <Stop />}
       </Fab>
